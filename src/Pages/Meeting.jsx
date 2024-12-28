@@ -1,7 +1,7 @@
 import '../App.css';
 import { JaaSMeeting } from '@jitsi/react-sdk';
 import { useParams } from "react-router-dom";
-import Spinner from '../components/ui/spinner';
+import Spinner from "../components/ui/Spinner";
 import { useNavigate } from "react-router-dom";
 import { useRef } from 'react';
 
