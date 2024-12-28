@@ -11,12 +11,13 @@ function Meeting() {
 	const navigate = useNavigate();
 	const apiRef = useRef();
 	const appID = import.meta.env.VITE_JAAS_APP_ID;
+	const JWTToken = import.meta.env.VITE_JWT_TOKEN;
 
 	return (
 		<JaaSMeeting
 			appId={appID}
 			roomName={roomId}
-			// jwt = { "jwt-token-here" }
+			jwt = { JWTToken }
 			configOverwrite={{
 				disableLocalVideoFlip: true,
 				backgroundAlpha: 0.5
