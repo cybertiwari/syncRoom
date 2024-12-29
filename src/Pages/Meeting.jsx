@@ -11,7 +11,7 @@ function Meeting() {
 	const navigate = useNavigate();
 	const apiRef = useRef();
 	const appID = import.meta.env.VITE_JAAS_APP_ID;
-	const JWTToken = import.meta.env.VITE_JWT_TOKEN;
+	// const JWTToken = import.meta.env.VITE_JWT_TOKEN;
 	
 	return (
 		<JaaSMeeting
