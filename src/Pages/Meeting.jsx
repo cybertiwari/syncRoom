@@ -14,6 +14,7 @@ function Meeting() {
 	const JWTToken = import.meta.env.VITE_JWT_TOKEN;
 	console.log(appID);
 	console.log(JWTToken);
+	console.log(import.meta.env);
 	
 	return (
 		<JaaSMeeting
