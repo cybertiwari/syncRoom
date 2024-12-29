@@ -56,7 +56,7 @@ export default function Home() {
 						</div>
 					</div>
 					<p className="text-sm text-muted-foreground">
-						<a href="https://github/com/cybertiwari/syncRoom" className="text-primary hover:underline">
+						<a href="https://github.com/cybertiwari/syncRoom" className="text-primary hover:underline">
 							Learn more
 						</a>{" "}
 						about syncRoom
